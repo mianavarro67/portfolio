@@ -4,6 +4,10 @@ body{
   color: rgb(255, 137, 28);
 }
 
+img {
+  max-width:100%;
+}
+
 p.bio{
   font-weight: 500;
   color: black;
@@ -48,7 +52,13 @@ p.bio{
 
 .name{
   width: 500px;
+  max-width: 100%;
   height: 300px;
+}
+
+.name img {
+  max-width: 100%;
+
 }
 
 
@@ -82,6 +92,10 @@ p.bio{
   justify-content: center;
 } */
 
+
+.icon {
+  max-width: 90%;
+}
 
 .icon-h{
   width: 130px;

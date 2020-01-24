@@ -5923,7 +5923,8 @@ a.close.disabled {
 }
 
 .modal-dialog {
-  position: relative;
+  position: absolute;
+  right:0;
   width: auto;
   margin: 0.5rem;
   pointer-events: none;
@@ -6011,7 +6012,8 @@ a.close.disabled {
   -ms-flex-direction: column;
   flex-direction: column;
   justify-content: center;
-  width: 1000px;
+  max-width: 1000px;
+  /* max-width:100%; */
   pointer-events: auto;
   /* background-color: #fff; */
   background-color: black;
@@ -6101,8 +6103,9 @@ a.close.disabled {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
-    margin: 1.75rem auto;
+    /* width: 1000px; */
+
+    /* margin: 1.75rem auto; */
   }
   .modal-dialog-scrollable {
     max-height: calc(100% - 3.5rem);
