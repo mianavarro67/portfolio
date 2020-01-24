@@ -101,20 +101,60 @@ p.bio{
 }
 
 .icon-photo{
-  width: 130px;
-  height: 120px;
+  width: 120px;
+  height: 105px;
 }
 
+.icon-pf{
+  width: 145px;
+  height: 110px;
+}
+
+.icon-mgdgd{
+  width: 145px;
+  height: 90px;
+}
+
+.icon-edify{
+  width: 120px;
+  height: 160px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.icon-stop{
+  /* width: 135px; */
+  height: 110px;
+}
+
+.icon-twsm{
+  width:130px;
+  height: 95px;
+}
+
+.icon-excel{
+  width:120px;
+  height: 90px;
+}
+
+.icon-felt{
+  height: 130px;
+  width: 95px;
+}
+
+.icon-frown{
+  width:130px;
+  height: 100px;
+}
 .project-lang{
   width: 45%;
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   font-size: 16px;
   padding-top: 10px;
   padding-left: 15px;
   padding-bottom: 10px;
 }
-
 
 .nelson-doc{
   width: 100%;
@@ -136,6 +176,41 @@ p.bio{
   width: 680px;
 }
 
+.pf{
+  width: 680px;
+}
+
+.mgdgd{
+  width: 680px;
+}
+
+.edify{
+  width: 680px;
+}
+
+.stop{
+  width: 680px;
+}
+
+.twsm{
+  width: 680px;
+}
+
+.excel{
+  width: 680px;
+}
+.felt{
+  width: 680px;
+}
+
+.frown{
+  width: 680px;
+}
+
+video{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .gallery {
   width:100%;
   /* background:red; */
